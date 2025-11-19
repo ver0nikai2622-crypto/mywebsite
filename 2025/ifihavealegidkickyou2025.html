@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if i had a leg id kick you 2025'</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: white;
+        }
+        .myDiv{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .myBtn{
+            font-size: 30px;
+            font-weight: bold;
+            border: 2px solid white;
+            border-radius: 20px;
+            background-color: black;
+            color: white;
+            padding: 5px 30px;
+        }
+        .myBtn:active{
+            background-color: green;
+        }
+        .myBtn:last-child{
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="myDiv">
+        <h2>:Choose Quality:</h2>
+        <button class="myBtn">⬇ 480p</button>
+        <button class="myBtn">⬇ 720p</button>
+        <button class="myBtn">⬇ 1080p</button>
+    </div>
+    
+    <script>
+        const adLink = 'https://megadl.pages.dev';
+       const dlinks = ['https://mega.nz/file/Pd1VnDaK#6ezNrJ62CqMDNV6xptmkkl3Dne24TRzwGeB7CxNgBDs', 'https://mega.nz/file/zY8VUaQZ#Z_-1hBPduT7TCaGsrVXRzsSRddIdFr7l0vEpboV8uws', 'https://mega.nz/file/6EdlAL6S#SPaA55iDxFcanq480ZMAoyU0KfZ8yYD52ky4tFfLtF4'];
+        document.querySelectorAll('.myBtn').forEach((link, index)=> {
+            link.addEventListener('click', ()=> {
+                window.open(adLink);
+                window.location.href = `${dlinks[index]}`;
+                
+            });
+        });
+                          
+                                      
+
+    </script>
+</body>
+</html>
